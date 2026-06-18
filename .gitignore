@@ -1,0 +1,36 @@
+# Build artifacts / bitstreams
+*.bit
+*.hwh
+*.xsa
+*.ltx
+*.dcp
+*.bin
+
+# Vitis HLS / Vivado work directories and logs
+attn_zcu104/
+attn_ultra96/
+*_proj/
+*_hls/
+vitis_hls*/
+.Xil/
+*.jou
+*.log
+*.str
+*.pb
+*.rpt
+*.wdb
+*.wcfg
+hls_proj*/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
